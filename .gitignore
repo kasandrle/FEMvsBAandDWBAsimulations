@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# JCM files
+*.jcm
+
 # User-specific files
 *.rsuser
 *.suo
