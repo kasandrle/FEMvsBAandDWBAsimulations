@@ -1,0 +1,58 @@
+Dependency {
+  PostProcessSection {
+    Tag = "7bcceee744633a081d2feeaa7282ebc2"
+    InputFile {
+      FileName = "layout.jcm"
+      Tag = "53bfc1c9642ae041bce4f052c359af85"
+      Type = JCMTree
+    }
+    InputFile {
+      FileName = "materials.jcm"
+      Tag = "581d026a3dbcc3adcb018edbe2cceda3"
+      Type = JCMTree
+    }
+    InputFile {
+      FileName = "sources.jcm"
+      Tag = "b296f38523f213a57230d5293d265f7e"
+      Type = JCMTree
+    }
+    OutputFile {
+      FileName = "project-field_results/fieldbag_near_field_xy.jcm"
+      Tag = "60ab10d1a800cbf7e9070a3e4a0a69fd"
+      Type = JCMTree
+    }
+  }
+  SolveSection {
+    Tag = "cf1c88c56ccb1983f9425743b23a47a9"
+    InputFile {
+      FileName = "layout.jcm"
+      Tag = "53bfc1c9642ae041bce4f052c359af85"
+      Type = JCMTree
+    }
+    InputFile {
+      FileName = "materials.jcm"
+      Tag = "581d026a3dbcc3adcb018edbe2cceda3"
+      Type = JCMTree
+    }
+    InputFile {
+      FileName = "sources.jcm"
+      Tag = "b296f38523f213a57230d5293d265f7e"
+      Type = JCMTree
+    }
+    OutputFile {
+      FileName = "project-field_results/computational_costs.jcm"
+      Tag = "fbfc9ffce9711f175869a281f57d60a1"
+      Type = JCMBlob
+    }
+    OutputFile {
+      FileName = "project-field_results/eigenvalues.jcm"
+      Tag = ""
+      Type = JCMBlob
+    }
+    OutputFile {
+      FileName = "project-field_results/fieldbag.jcm"
+      Tag = "024d60ec329dd5478550c930024d29ce"
+      Type = JCMBlob
+    }
+  }
+}
