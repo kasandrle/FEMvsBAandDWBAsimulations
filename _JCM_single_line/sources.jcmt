@@ -10,9 +10,10 @@ SourceBag {
         #Amplitude = [0 1 0]
         ThetaPhi = [%(angle_of_incidence)e, %(phi)e]
         #Sigma = [0 0]
+        #PowerFluxScaling=UnitNormal
         3DTo2D = yes
         #Direction = -Z
-        Incidence = FromAbove
+        Incidence = FromBelow #FromAbove
       }
     }
   }

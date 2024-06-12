@@ -20,6 +20,8 @@ PostProcess {
     FieldBagPath = "project_results/fieldbag.jcm"
     OutputFileName = "project_results/ft.jcm"
     NormalDirection = Y
+    #Rotation = X:Z:-Y
+    NRefinements = 10
   }
 }
 

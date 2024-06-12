@@ -34,23 +34,21 @@ BoundaryClass = TransparentBoundary #Periodic
 }
 }
 
-Polygon {
-Name = "substrate"
-DomainId = 5
-Priority = 4
-SideLengthConstraint = %(slc)e
-Points = %(points_substrate)e
+#Polygon {
+#Name = "substrate"
+#DomainId = 5
+#Priority = 4
+#SideLengthConstraint = %(slc)e
+#Points = %(points_substrate)e
+#}
 
-}
-
-Polygon {
-Name = "substrate_to"
-DomainId = 4
-Priority = %(prior)e
-SideLengthConstraint = %(slc)e
-Points = %(points_to_Si_Si3N4)e
-
-}
+#Polygon {
+#Name = "substrate_to"
+#DomainId = 4
+#Priority = %(prior)e
+#SideLengthConstraint = %(slc)e
+#Points = %(points_to_Si_Si3N4)e
+#}
 
 
 Polygon {
@@ -62,14 +60,13 @@ Points = %(points_line_komplet)e
 
 }
 
-Polygon {
-Name = "Oxidlayer"
-DomainId = 2 #6 for graded elese 2
-Priority = 2
-SideLengthConstraint = %(slc)e
-Points = %(points_oxid_komplet)e
-
-}
+#Polygon {
+#Name = "Oxidlayer"
+#DomainId = 2 #6 for graded elese 2
+#Priority = 2
+#SideLengthConstraint = %(slc)e
+#Points = %(points_oxid_komplet)e
+#}
 
 
 
